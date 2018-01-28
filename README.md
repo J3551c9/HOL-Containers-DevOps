@@ -1,1 +1,1 @@
-#Hand on Lab AKS & Jenkins
+#Hands on Lab AKS & Jenkins

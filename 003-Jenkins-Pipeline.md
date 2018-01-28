@@ -1,4 +1,4 @@
-# Daployment
+# Deployment
 
 # 1. Deploy with Jenkins pipeline
 
@@ -30,7 +30,7 @@ node{
 
 ![](./img/3.0.i005.PNG)
 
-5. Save and Buil Now
+5. Save and Build Now
 ![](./img/3.0.i0010.PNG)
 
 # 1.1 Valide the Deployment 
