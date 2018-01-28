@@ -93,22 +93,21 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-```
 
+```
 8.1. Unlock Jenkins
+
 8.1.1. Browse to Jenkins web console and create an admin user 
+
 8.1.2. Install suggested plugins
+
 8.1.3. Add jenkins user to docker group
+
+
 ```
 sudo usermod -a -G docker jenkins
 sudo service jenkins restart
 ``` 
-
-8.1 Install Docker and Kubernetes plugins
-
-Go to Jenkins web console -> Manage Jenkins -> Manage Plugins -> Available and install without restart the next plugins:
-
- ![](./img/2.0.i004.PNG)
 
 9. Configure communication between Jenkins and Kubernetes cluster
 

@@ -13,8 +13,8 @@ node{
     stage "Build"
         sh "docker build -t content-api -f /home/agentuser/FabMedical/content-api/Dockerfile /home/agentuser/FabMedical/content-api"
         sh "docker build -t content-web -f /home/agentuser/FabMedical/content-web/Dockerfile /home/agentuser/FabMedical/content-web"
-        sh "docker tag content-web holcontainerregistry.azurecr.io/fabmedical/content-web"
-        sh "docker tag content-api holcontainerregistry.azurecr.io/fabmedical/content-api"
+        sh "docker tag content-web yourregistry.azurecr.io/fabmedical/content-web"
+        sh "docker tag content-api yourregistry.azurecr.io/fabmedical/content-api"
     
     stage "Push"
         sh "docker login yourregistry.azurecr.io -u yourregistryuser -p yourpassword"
